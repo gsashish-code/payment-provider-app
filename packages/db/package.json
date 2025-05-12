@@ -5,7 +5,10 @@
         "@prisma/client": "^5.22.0"
     },
     "devDependencies": {
-        "prisma": "5.11.0"
+        "prisma": "5.11.0",
+        "@repo/typescript-config": "workspace:*",
+        "@repo/eslint-config": "workspace:*"
+
     },
     "exports": {
         "./client": "./index.ts"
